@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Lending Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Book Lending Platform</h1>
+    </header>
+    <main>
+        <section id="book-list">
+            <h2>Available Books</h2>
+            <ul id="books"></ul>
+        </section>
+        <section id="add-book">
+            <h2>Add a New Book</h2>
+            <form id="book-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <input type="text" id="author" placeholder="Author" required>
+                <input type="text" id="genre" placeholder="Genre" required>
+                <button type="submit">Add Book</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
